@@ -1,0 +1,87 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.40.11-Bratislava">
+  <identifier>GEMS_HABITAT_POINT_DATASET</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>GEMS HABITAT POINT DATASET</title>
+  <abstract>Collation of habitat point records contributing to the Geodatabase of Marine features adjacent to Scotland (GeMS). Records are attributed as to their qualification as protected features of protected areas within the Scottish MPA network. Where appropriate typical record details will include: status as Scottish Priority Marine Features or Annex I Habitat, MNCR biotope, EUNIS habitat, date, date range, year, status, accuracy, determiner and details of where the records are sourced from and intellectual property ownership.
+
+
+Collation of data (from varied sources) contributing to the Geodatabase of Marine features adjacent to Scotland (GeMS). Collation serves the purposes of: - supporting the Scottish Marine Protected Areas process; - sourcing data used in Scotland's National Marine Plan; - providing information on the known recorded distribution of Scottish Priority Marine Features; - providing information on the known distribution of recorded Habitats Directive Annex I features within Special Areas of Conservation.</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>GeMS</keyword>
+    <keyword>Geodatabase of Marine Features adjacent to Scotland</keyword>
+    <keyword>MPA</keyword>
+    <keyword>Marine Protected Areas</keyword>
+    <keyword>Priority Marine Features</keyword>
+    <keyword>MPA Search Features</keyword>
+    <keyword>Habitats</keyword>
+    <keyword>Marine habitats</keyword>
+    <keyword>Annex I habitats</keyword>
+  </keywords>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>Marine Protected Areas, MPA, Priority Marine Features, MPA Search features, Habitats, Marine habitats</keyword>
+    <keyword>Habitats and biotopes</keyword>
+    <keyword>Species distribution</keyword>
+    <keyword>Sea regions</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type></type>
+      <address></address>
+      <city></city>
+      <administrativearea></administrativearea>
+      <postalcode></postalcode>
+      <country></country>
+    </contactAddress>
+    <name>James Dargie</name>
+    <organization>NatureScot</organization>
+    <position>Marine Data Adviser</position>
+    <voice></voice>
+    <fax></fax>
+    <email>James.Dargie@nature.scot</email>
+    <role>Point of contact</role>
+  </contact>
+  <links/>
+  <history>This feature class contains habitat point records that have been iteratively added on and since the initial creation of the dataset. Records are sourced from multiple data owners, and provided for addition to the dataset by either NatureScot or Joint Nature Conservation Committee. Intellectual Property Ownership of individual records is varied. Records were originally collected for a variety of purposes and record collection was done through a variety of methodologies. No records were originally collected with the specific purpose of inclusion within this collation; the dataset accepts records relevant to Priority Marine Features, MPA Search Features and Annex I habitat records. Records have had a standardised data structure applied, and as such may not include all the attributes available within their original source. Updates starting in 2025 will be named with the date of the version being published. Published version 11: Iteration 28 (16/09/2024) Published version 10: Iteration 26 (19/10/2021) - reflects further data additions: SNH Additions 176 to 188, edits and deletions Published version 9: Iteration 25 (08/02/2021) - reflects further data additions: SNH Additions 172 to 175 Published version 8: Iteration 24 - reflects further data additions: SNH Additions 148 to 171 (02/04/2020) Unpublished: Iteration 23 - reflects further data additions: SNH Additions 137 to 147 Published Version7: Iteration 22 - reflects revision to Burrowed mud extent in Southern Trench Unpublished: Iteration 21 - Additional data for Basking shark and Risso's dolphin Published Version 6: Iteration 20 [07/09/2018] to support PMF review consultation, also contains some data to support forthcoming Phase II Fisheries Management, and some data to support consultation on remaining Nature Conservation MPA proposals Unpublished: Iteration 19 [31/01/2018] Published Version5: Iteration 18 [24/01/2017] Unpublished: Iteration 17 [22/06/2015] Unpublished: Iteration 16 [01/05/2015] Published Version 4: Iteration 15 [24/02/2015] additions and changes to reflect data confidence assessments used at designation for JNCC led sites Unpublished: Iteration 14 [October 2014] additions and changes to reflect data confidence assessments used at designation for SNH led sites Published Version 3: Iteration 13 [03/07/2014] published immediately prior to MPA independent external review Unpublished: Iteration 12 [undated] Unpublished: Iteration11 [30/01/2014] supplied as interim release to Marine Scotland Published Version 2: Iteration 10 [31/05/2012] published to MPA stakeholder consultation process Published Version 1: Iteration 9 [17/06/2011] published to MPA stakeholder consultation process Unpublished: Iteration 8 [2011] Unpublished: Iteration 7 [2011] Unpublished: Iteration 6 [2011] Unpublished: Iteration 5 [2011] Unpublished: Iteration 4 [2011] Unpublished: Iteration 3 [2011] Unpublished: Iteration 2 [2011] Unpublished: Iteration 1 [2011]</history>
+  <dates>
+    <date value="2011-06-17T00:00:00" type="Created"/>
+    <date value="2022-07-24T00:00:00" type="Published"/>
+    <date value="2025-11-25T00:00:00" type="Revised"/>
+  </dates>
+  <fees></fees>
+  <constraints type="Limitations of use">Details of permissions to mobilise for view download and re-use are documented against individual records in the CONSENT field. Likewise records of Native oyster or Native oyster habitat are considered Sensitive under NatureScot policy and are not to be released at full resolution; such records are tagged as "Sensitive" in the CONSENT field.</constraints>
+  <rights>Data collated by NatureScot and Joint Nature Conservation Committee. Copyright ownership is recorded against individual records and varies from record to record the following are the copyright owners of individual records: &#xd;
+&#xd;
+Agri-Food and Biosciences Institute (Northern Ireland), BioMar Project partners (Trinity College, Dublin; Joint Nature Conservation Committee; University of Newcastle-on-Tyne; AID Environment), BMT Cordah Ltd, Brathay Exploration Group Trust, British Geological Survey, British Sub Aqua Club, Community of Arran Seabed Trust (COAST), Craignish Restoration of Marine and Coastal Habitat (CROMACH), Crown copyright (Centre for Environment, Fisheries and Aquaculture Science, DAERA, DARD, Defra - MB0102, Department for Business, Energy and Industrial Strtaegy, Marine Scotland), Dundee City Council, Edinburgh Napier University, Eleftheriou A, Hall-Spencer J, Heriot-Watt University, Joint Nature Conservation Committee, Kames Fish Farming Ltd, Marine Conservation Society (Scotland), McLusky D, Martin T. Mills, Moore C, National Oceanography Centre, Natural England, NatureScot, No Copyright CC0 1.0 Universal (CC0 1.0) Public Domain Dedication, Organic Sea Harvest Ltd, Porcupine Marine Natural History Society, Queen's University Belfast, Roberts Prof J M, Scottish Environment Protection Agency, Shetland Field Studies Group, Shetland Oil Terminal Environmental Advisory Group, Spanish Institute of Oceanography (IEO), Tony Oldham, TOPAZ Environmental and  Marine Limited, Unicomarine, University of Dundee, University of Plymouth, University of St Andrews, University of the Highlands and Islands (NAFC Marine Centre), University of the Highlands and Islands (Scottish Association for Marine Science), Underwater World Publications, Contains Ordnance Survey data © Crown copyright and database right 2021.</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial maxz="0" maxy="90" minx="-180" maxx="180" crs="EPSG:4326" dimensions="2" minz="0" miny="-90"/>
+    <temporal>
+      <period>
+        <start>2022-07-23T23:00:00Z</start>
+        <end></end>
+      </period>
+    </temporal>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>
