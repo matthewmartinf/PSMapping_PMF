@@ -497,6 +497,12 @@
         });
         lay.addTo(map);
         setBounds();
+		// Plain grey basemap (land and sea) underneath everything
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+            maxNativeZoom: 16,
+            maxZoom: 20,
+            attribution: 'Basemap &copy; Esri'
+        }).addTo(map);
         // Place names on top of the map
         map.createPane('labels');
         map.getPane('labels').style.zIndex = 650;
