@@ -497,7 +497,16 @@
         });
         lay.addTo(map);
         setBounds();
-
+        // Place names on top of the map
+        map.createPane('labels');
+        map.getPane('labels').style.zIndex = 650;
+        map.getPane('labels').style.pointerEvents = 'none';
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png', {
+            pane: 'labels',
+            subdomains: 'abcd',
+            maxZoom: 20,
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+        }).addTo(map);
         // Scale bar that updates as you zoom
         L.control.scale({position: 'bottomleft', metric: true, imperial: false, maxWidth: 150}).addTo(map);
 
