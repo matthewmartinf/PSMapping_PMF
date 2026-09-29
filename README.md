@@ -2,7 +2,7 @@
 
 Interactive map of proposed Priority Marine Feature (PMF) management areas and seagrass records around Scotland.
 
-https://matthewmartinf.github.io/ProjectSeagrassMap_PMF/
+[https://matthewmartinf.github.io/ProjectSeagrassMap_PMF/](https://matthewmartinf.github.io/PSMapping_PMF/#8/58.505/-4.982)
 
 
 ## Data sources
