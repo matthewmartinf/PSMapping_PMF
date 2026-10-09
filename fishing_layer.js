@@ -67,7 +67,7 @@
 
   // Control: on/off, metric dropdown, legend
   var Ctl = L.Control.extend({
-    options: { position: 'bottomleft' },
+    options: { position: 'topright' },
     onAdd: function () {
       var d = L.DomUtil.create('div', 'leaflet-control fishing-control');
       d.innerHTML =
