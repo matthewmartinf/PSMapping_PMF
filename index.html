@@ -524,7 +524,7 @@
             attribution: 'Place names &copy; Esri, HERE, Garmin, &copy; OpenStreetMap contributors'
         }).addTo(map);
         // Scale bar that updates as you zoom
-        L.control.scale({position: 'bottomleft', metric: true, imperial: false, maxWidth: 150}).addTo(map);
+        L.control.scale({position: 'topright', metric: true, imperial: false, maxWidth: 150}).addTo(map);
 
         // Points: small when zoomed out, bigger when zoomed in
         function setPointSize() {
