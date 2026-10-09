@@ -118,7 +118,7 @@
                     video.style.maxWidth = "60vw";
                     imgTd.parentNode.replaceChild(video, imgTd);
                     popup._contentNode.classList.add('media');
-                    // Aggiorna il popup quando il video carica i metadati
+                    // 
                     video.addEventListener('loadedmetadata', function() {
                         popup.update();
                     });
@@ -507,7 +507,7 @@
         });
         lay.addTo(map);
         setBounds();
-		// Plain grey basemap (land and sea) underneath everything
+		// Plain grey basemap 
         L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
             maxNativeZoom: 16,
             maxZoom: 20,
