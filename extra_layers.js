@@ -157,4 +157,44 @@
             'Proposed measures and management areas are consultation proposals, not current rules.';
         abs.style.maxWidth = '280px';
     }
+
+    // --- Subtle highlight on the feature whose popup is open ---
+    var _hl = [];
+    function _unhighlight() {
+        _hl.forEach(function (h) {
+            if (h.saved) { h.layer.setStyle(h.saved); }
+            if (h.radius !== undefined && h.layer.setRadius) { h.layer.setRadius(h.radius); }
+            if (h.icon) { h.layer._icon.style.filter = ''; }
+        });
+        _hl = [];
+    }
+    function _highlightOne(l) {
+        if (l.setStyle && l.options && l.options.stroke !== false) {
+            var o = l.options;
+            var h = {layer: l, saved: {color: o.color, weight: o.weight, opacity: o.opacity,
+                                      fillOpacity: o.fillOpacity, dashArray: o.dashArray}};
+            var hi = {weight: (o.weight || 1) + 2, opacity: 1};
+            if (o.fill !== false && typeof o.fillOpacity === 'number' && !o.fillPattern) {
+                hi.fillOpacity = Math.min(0.85, o.fillOpacity + 0.15);
+            }
+            if (typeof o.radius === 'number' && l.setRadius) { h.radius = o.radius; l.setRadius(o.radius + 2); }
+            l.setStyle(hi);
+            if (l.bringToFront) { l.bringToFront(); }
+            _hl.push(h);
+        } else if (l._icon) {
+            l._icon.style.filter = 'drop-shadow(0 0 3px rgba(0,0,0,0.75))';
+            _hl.push({layer: l, icon: true});
+        }
+    }
+    map.on('popupopen', function (e) {
+        _unhighlight();
+        var src = e.popup && e.popup._source;
+        if (!src) { return; }
+        var targets = [src];
+        if (src.feature) {
+            map.eachLayer(function (l) { if (l !== src && l.feature === src.feature) { targets.push(l); } });
+        }
+        targets.forEach(_highlightOne);
+    });
+    map.on('popupclose', _unhighlight);
 })();
