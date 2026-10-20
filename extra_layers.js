@@ -126,6 +126,12 @@
             '<tr><td><span style="display:inline-block;width:14px;height:12px;background:rgba(158,158,158,0.25);border:1px dashed #6B6B6B;"></span></td><td>Other closures (military, health hazard)</td></tr>' +
             '</table>', layer: trawl}
     );
+    // Scotland outline layer removed (land comes from the grey basemap instead)
+    if (typeof layer_Scotland_outline_0 !== 'undefined') {
+        overlaysTree = overlaysTree.filter(function (e) { return e.layer !== layer_Scotland_outline_0; });
+        lay.setOverlayTree(overlaysTree);
+        map.removeLayer(layer_Scotland_outline_0);
+    }
     // MPA measures go straight after the PMF options in the list (unticked by default)
     (function () {
         var entries = [
