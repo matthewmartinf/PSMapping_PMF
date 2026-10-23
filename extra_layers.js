@@ -197,9 +197,8 @@
     var abs = document.getElementById('abstract');
     if (abs) {
         abs.innerHTML = 'The map presents the management options that currently exist and are proposed for the protection of seagrass beds in Scotland. ' +
-            'Seagrass extent is shown using data from our Seagrass Tools (Seagrass Spotter and Seagrass Restorer) and the Geodatabase of Marine features adjacent to Scotland (GeMS). ' +
-            'Fishing activity for 2025 was sourced from ICES/OSPAR VMS data for mobile bottom-contacting gear.' +
-            '<br><small><i>Snapshot: data correct as of October 2026. Proposed measures and management areas are consultation proposals, not current rules.</i></small>';
+            'Seagrass extent is shown using data from Seagrass Spotter (Project Seagrass) and the Geodatabase of Marine features adjacent to Scotland (GeMS). ' +
+            'Fishing activity for 2025 was sourced from ICES/OSPAR VMS data for mobile bottom-contacting gear.';
         abs.style.maxWidth = '320px';
     }
 
